@@ -1,0 +1,424 @@
+* {margin: 0; padding: 0}
+
+.osn{
+	width: 100%;
+	height: auto;
+	background-color: #042e3b;
+	color: White;
+	font-family: 'Century Gothic';
+	}
+
+nav{
+	background-color: #105065; 
+	font-family: 'Century Gothic'; 
+	font-size: 20px;
+	}
+
+/*M*/
+.navbar-brand{ 
+	background-image: url("images/М1.png"); 
+	background-size: 100% 100%;
+	height: 45px; 
+	width: 45px;
+	margin: 0px 50px 0px 20px;
+	}
+@media screen and (max-width: 700px){
+	.navbar-brand{
+		height: 40px; 
+		width: 40px;
+		margin-left: 0px;
+		}
+}
+
+/*Меню*/
+ul li a b{
+	margin-right: 55px;
+	color: White;
+	}
+
+ul li a b:hover{
+	text-decoration: underline;
+	}
+
+/*Кнопка темы*/
+.buttondark{
+	border-radius: 20px;
+	margin-right: 20px;
+	background: #95e6e8;
+	background-size: 100% 100%;
+	height: 40px; 
+	width: 40px;
+	}
+@media screen and (max-width: 700px){
+	.buttondark{
+		margin-left: 79%;
+		}
+}
+
+/*Первый блок (главная)*/
+.glavna{
+	background-image: url("images/1.jpg");
+	background-size: 100% 100%;
+	background-color: #042e3b;
+	height: auto;
+	width: 100%;
+	font-size: 46px;
+	text-align: center;
+	}
+@media screen and (max-width: 700px){
+	.glavna{
+		font-size: 34px;
+		background-image: url("images/2.jpg");
+		}
+}
+
+.glavna td{
+	background: rgba(0,0,0,0.3);
+	height: 720px;
+	width: 20%;
+	font-family: 'Playfair Display';
+	}
+
+/*Ссылка к началу*/
+.knopka{
+	position: fixed;
+	bottom: 20px; 
+	right: 20px;
+	display: block;
+	text-decoration: none;
+
+	height: 60px;
+	width: 60px;
+	background-size: 60px 60px;
+	background-image: url("images/st.png");
+	z-index: 4;
+	}
+@media screen and (max-width: 700px){
+	.knopka{
+		height: 45px;
+		width: 45px;
+		background-size: 45px 45px;
+		}
+}
+
+
+
+
+/*Блок с оценками*/
+.str1{
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 51%, rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	}
+
+.zag{
+	position: relative;
+	height: auto;
+	width: 85%;
+	height: auto;
+	font-size: 26px;
+	text-align: center;
+	background-color: #196077;
+	line-height: 270%;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	}
+@media screen and (max-width: 700px){
+	.zag{
+		font-size: 18px;
+		}
+}
+
+.zag .img1{
+	float: left;
+	height: auto; 
+	width: 60px; 
+	margin: 8px 0px 0px 30px;
+	}
+
+.zag .img2{
+	float: right;
+	height: auto; 
+	width: 60px;
+	margin: 8px 30px 0px 0px;
+	}
+@media screen and (max-width: 700px){
+	.zag .img1{
+		width: 30px;
+		margin: 10px 0px 0px 15px;
+		}
+	.zag .img2{
+		width: 30px;
+		margin: 10px 15px 0px 0px;
+		}
+}
+
+/*Таблица*/
+.tablisa table{
+	position: relative;
+	width: 75%;
+	font-size: 12px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+
+	}
+@media screen and (min-width: 700px){
+	.tablisa table{
+		font-size: 18px;
+		}
+}
+
+.tablisa th{
+	width: 33%;
+	font-size: 14px;
+	color: white;
+	background-color: #9f7dff;
+	border: 2px solid black;
+	padding: 5px;
+	}
+@media screen and (min-width: 700px){
+	.tablisa th{
+		font-size: 22px;
+		}
+}
+
+.tablisa td{
+	color: #715a5a;
+	font-weight: bolder;
+	border: 2px solid black;
+	padding: 5px;
+	}
+
+.k1{
+	background-color: #f9f6bc;
+	}
+
+.k2{
+	background-color: #fcd6d3;
+	}
+
+.k3{
+	background-color: #bdeaff;
+	}
+
+
+
+
+/*Блок с фильмами*/
+.str2{
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	}
+
+.like{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+.film{
+	height: 350px;
+	width: 250px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	margin-left: 20px; 
+	position: relative;
+	filter: drop-shadow(0px 0px 10px white);
+	}
+
+/*Эффект при наведении*/
+.effect{
+	-moz-transition: all 0.5s easy;
+	-webkit-transition: all 0.5s easy;
+	-o-transition: all 0.5s easy;
+	transition: all 0.5s easy;
+	}
+
+.effect:hover{
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+	z-index: 2;
+	-moz-transition: all 0.5s easy;
+	-webkit-transition: all 0.5s easy;
+	-o-transition: all 0.5s easy;
+	transition: all 0.5s easy;
+	}
+
+
+
+
+/*Блок обо мне*/
+.str3{
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	}
+
+.obomne{
+	font-size: 26px;
+	}
+@media screen and (max-width: 700px){
+	.obomne{
+		font-size: 16px;
+		}
+}
+
+/*Три слова*/
+.odin{
+	height: auto;
+	width: 70%;
+	background-color: #e4a8d4;
+	padding: 20px 10px 10px 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+/*Настроения*/
+.dva{
+	height: auto;
+	width: 70%;
+	background-color: #f9f6bc;
+	color: #9a9999;
+	margin-top: 34px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+.dva img{
+	height: 200px;
+	}
+
+/*Цитата*/
+.tri{
+	height: auto;
+	width: 70%;
+	background-color: #9ccf95;
+	margin-top: 34px;
+	padding: 20px 5px 10px 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+
+
+
+/*Блок мой город*/
+.str4{
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	}
+
+.gorod{
+	height: auto;
+	width: 70%;
+	background-color: #88aaee;
+	font-size: 20px;
+	text-align: left;
+	padding: 25px 40px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	}
+@media screen and (max-width: 700px){
+	.gorod{
+		font-size: 14px;
+		padding: 15px 10px 5px 20px;
+		}
+}
+
+.slider{
+	height: auto;
+	width: 60%;
+	background-color: #88aaee;
+	margin-top: 36px;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+
+
+
+/*Блок с проэктом*/
+.str5{
+	height: auto;
+	width: 100%;
+	padding-top: 60px;
+	}
+
+.sketchfab-embed-wrapper{
+	margin-left: 20%;
+    }
+
+.Model{
+	width: 75%;
+	height: 530px;
+	background-color: #a3d39c;
+	border-radius: 10px;
+	border: 0px;
+	}
+@media screen and (max-width: 700px){
+	.Model{
+		width: 70%;
+		height: auto;
+		}
+}
+
+
+/*Блок с контактами*/
+.niz{
+	height: auto;
+	width: 100%;
+	background-color: #105065;
+	margin-top: 50px;
+	padding-bottom: 10px; 
+	}
+
+.kontakt img{
+	width: 30px;
+	}
+
+.kontakt{
+	height: auto;
+	width: 60%;
+	margin-top: 30px;
+	font-size: 16px;
+	margin-left: auto;
+    margin-right: auto;
+	}
+@media screen and (max-width: 700px){
+	.kontakt img{
+		width: 20px;
+		}
+	.kontakt{
+		font-size: 12px;
+	}
+}
+
+.S1{
+	text-align: right;
+	}
+
+.S2{
+	text-align: left;
+	}

@@ -1,0 +1,65 @@
+* {margin: 0; padding: 0}
+
+.osn{
+	background-color: #d0f4ff;
+	}
+
+nav{
+	background-color: #95e6e8; 
+	}
+
+/*M*/
+.navbar-brand{ 
+	background-image: url("images/М2.png"); 
+	}
+
+/*Меню*/
+ul li a b{
+	color: #105065;
+	}
+
+/*Кнопка темы*/
+.buttondark{
+	border: 0px;
+	background-image: url("images/K2.png"); 
+	background-color: rgba(0,0,0,0.0);
+	}
+
+/*Первый блок (главная)*/
+.glavna td{
+	background: rgba(0,0,0,0.0);
+	}
+
+/*Блок с оценками*/
+/*Заголовок*/
+.zag{
+	background-color: #6cd4e7;
+	color: #105065;
+	}
+
+/*Таблица*/
+.k1{
+	background-color: #fcd6d3;
+	}
+
+.k2{
+	background-color: #bdeaff;
+	}
+
+.k3{
+	background-color: #f9f6bc;
+	}
+
+/*Блок с фильмами*/
+.film{
+	filter: drop-shadow(0px 0px 10px black);
+	}
+
+/*Блок с контактами*/
+.niz{
+	background-color: #6cd4e7;
+	}
+
+.kontakt{
+	color: #105065;
+	}
